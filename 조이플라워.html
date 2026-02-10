@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>조이플라워 - 자연을 디자인하다</title>
+    <style>
+        /* 전체적인 디자인을 잡는 스타일(CSS)입니다 */
+        body {
+            font-family: 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: #333;
+        }
+
+        /* 상단 헤더: 로고/이름 영역 */
+        header {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h1 {
+            margin: 0;
+            color: #2E7D32; /* 짙은 초록색으로 신뢰감을 줌 */
+            font-size: 24px;
+        }
+
+        /* 메인 비주얼: 조경 사진이 크게 들어가는 곳 */
+        .hero-section {
+            /* 임시 이미지를 넣었습니다. 나중에 직접 찍은 사진으로 바꿀 수 있어요 */
+            background-image: url('https://images.unsplash.com/photo-1557429287-b2e26467fc2b?q=80&w=1000&auto=format&fit=crop'); 
+            background-size: cover;
+            background-position: center;
+            height: 400px; /* 사진 높이 */
+            display: flex;
+            align-items: center;
+            justify_content: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+        }
+        .hero-text {
+            background-color: rgba(0, 0, 0, 0.4); /* 글씨 잘 보이게 배경을 어둡게 */
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        /* 서비스 소개 영역 */
+        .services {
+            padding: 40px 20px;
+            background-color: #f9f9f9;
+        }
+        .service-item {
+            margin: 20px 0;
+            font-size: 18px;
+        }
+
+        /* 하단 정보: 전화번호 강조 */
+        footer {
+            background-color: #2E7D32; /* 브랜드 컬러 */
+            color: white;
+            padding: 30px;
+        }
+        .phone-number {
+            font-size: 28px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .contact-btn {
+            background-color: white;
+            color: #2E7D32;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>JOY FLOWER</h1>
+    </header>
+
+    <div class="hero-section">
+        <div class="hero-text">
+            <h2>공간에 숨결을 불어넣다</h2>
+            <p>전지작업 | 포토존 설치 | 크리스마스 트리 대여</p>
+        </div>
+    </div>
+
+    <div class="services">
+        <h3>We Provide</h3>
+        <p>나무와 꽃으로 당신의 공간을 특별하게 만듭니다.</p>
+        <div class="service-item">✂️ <strong>전문 전지작업</strong>: 나무의 건강과 미관을 동시에</div>
+        <div class="service-item">📸 <strong>포토존 설치</strong>: 잊지 못할 추억의 장소</div>
+        <div class="service-item">🎄 <strong>시즌 트리 대여</strong>: 크리스마스의 감동을 그대로</div>
+    </div>
+
+    <footer>
+        <p>문의 및 상담</p>
+        <div class="phone-number">010-3411-0792</div>
+        <a href="tel:01034110792" class="contact-btn">📞 전화 걸기</a>
+    </footer>
+
+</body>
+</html>
